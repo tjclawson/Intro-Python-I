@@ -61,7 +61,7 @@ def is_month_valid():
         if 12 >= month > 0:
             result = True
     except ValueError:
-        print("Please enter a valid month as an integer in the format <month>")
+        pass
 
     return result
 
@@ -72,7 +72,7 @@ def is_year_valid():
         year = int(arguments[2])
         result = True
     except ValueError:
-        print("Please enter a valid month and year as integers in the format <month> <year>")
+        pass
 
     return result
 
